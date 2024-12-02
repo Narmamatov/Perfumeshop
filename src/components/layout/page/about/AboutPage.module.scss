@@ -1,0 +1,55 @@
+.about {
+  .context {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .add {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #6c757d;
+      margin-top: 60px;
+      width: 700px;
+      height: 100px;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+    }
+    .addIn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      background-color: #d9d9d9;
+      width: 700px;
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+      margin-bottom: 50px;
+      .info {
+        margin-top: 30px;
+        input {
+          padding: 15px 70px;
+          font-size: 20px;
+          border-radius: 10px;
+          background-color: #6C757D;
+          color: white;
+        }
+      }
+      button {
+        width: 200px;
+        padding: 10px;
+        margin: 20px;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: #037e19;
+        color: white;
+      }
+      button:active{
+        transform: scale(0.95);
+        transition: 0.1s;
+      }
+    }
+  }
+}
